@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    --cor-amarelo: rgb(255,194,52);
+    --cor-marrom: rgb(65,31,9);
+    --cor-vermelho: rgb(223,28,28);
+
+    MARROM - RGB(65,31,9)
+VERMELHO - RGB(223,28,28)
+}
