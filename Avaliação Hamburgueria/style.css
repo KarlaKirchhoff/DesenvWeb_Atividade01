@@ -9,6 +9,7 @@
     font-family: sans-serif;
     list-style: none;
     color: var(--cor-marrom);
+    font-style: normal;
 
 }
 
@@ -49,7 +50,7 @@ main{
 }
 .texto-banner{
     display: flex;
-    padding-top: 20%;
+    padding-top: 170px;
 }
     .img-banner > figure > img{
         height: 350px;
@@ -108,3 +109,53 @@ main{
     color: white;
 }
 
+.form-reserva{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid purple;
+
+}
+.form-reserva > h3{ /* 'reservation' */
+    font-size: 13px;
+}
+
+.campo-reserva{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    gap: 10px;
+
+}
+
+.campo-reserva > input{
+    width: 48%;
+    height: 50px;
+    background-color: var(--cor-amarelo);
+}
+footer, .localizacao, .email, .sec1-footer, .copy-redes-sociais{
+    display: flex;
+
+}
+
+footer{
+    background-image: url(img/rodape/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 10px 5px 10px;
+    flex-direction: column;
+}
+
+.texto-footer > p, address > p, .localizacao > p, .email > p{
+    color: white;
+}
+
+.texto-footer, .contato-footer{
+    width: 50%;
+}
+
+.copy-redes-sociais{
+    justify-content: space-between;
+    padding: 5px 10px;
+}
